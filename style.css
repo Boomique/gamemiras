@@ -1,0 +1,66 @@
+#gamezone{
+    border: 1px solid black;
+    background-color: lightblue;
+    height: 350px;
+    width: 650px;
+    background-image: url(https://wallpapercave.com/wp/uaJdGuS.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+}
+
+.character{
+    background-color: orange;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    background-image: url(https://static.wikia.nocookie.net/warrior/images/a/ad/Deathofkevincrow.jpg/revision/latest?cb=20160202110346&path-prefix=ru);
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+.tail{
+    background-image: url(https://kartinkof.club/uploads/posts/2022-03/1648329127_1-kartinkof-club-p-mem-boitsovskii-klub-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+#gamezone1{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    background-image: url(https://kartinki.pibig.info/uploads/posts/2023-04/thumbs/1682006777_kartinki-pibig-info-p-kartinki-noch-ulitsa-fonar-arti-instagram-62.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*При наведении*/
+.character:hover{
+    scale: 1.1;  /*увеличивается размер*/
+}
+#btn{
+    background-color: orange;
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    border: black;
+    border-radius: 2px;
+
+}
+
+#scores{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+}
